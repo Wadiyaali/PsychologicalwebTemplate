@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.1.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="bg1">
+    <div id="background-carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url('NewFolder1/imgweb.png');"></div>
+
+                <div class="item" style="background-image: url('NewFolder1/web.png');"></div>
+                <div class="item" style="background-image: url('NewFolder1/webimg.png');"></div>
+                <div class="item" style="background-image: url('NewFolder1/webimg1.png');"></div>
+            </div>
+        </div>
+    </div>
+    <div class="customnav">
+
+        <div class="et-hero-tabs-container sticky " id="navbar">
+            <a class="nonlink"></a>
+            <a class="nonlink"></a>
+            <a class="nonlink"></a>
+
+            <a class="nonlink navbar-text"><h1>Aurora </h1></a>
+            
+            <a class="nonlink"></a>
+            <a class="et-hero-tab navbar-nav" href="" data-toggle="modal" data-target=".log-sign"><p>Profile</p></a>
+            <a class="et-hero-tab navbar-nav" href="" data-toggle="tooltip" title="Log Out" data-animation="true" data-placement="auto"><p><i class="fas fa-sign-out-alt"></i></p></a>
+            
+        </div>
+
+        </div>
+    <div class="container1">
+        <p class="randomp"> Welcome @USER! Anything we can help you with?</p>
+    </div>
+  
+</body>
+</html>
+<script>
+
+</script>
+<script>
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 50) {
+            $('.et-hero-tabs-container').css('background', '#008c76');
+            $('.et-hero-tab').css('background', '#008c76');
+            $('.et-slide').css('background', '#008c76');
+            $('.nonlink').css('background', '#008c76');
+            $('.et-hero-tabs-container').css('margin-top', '0%');
+            $('.navbar').css('background', '#008c76');
+
+        } else {
+            $('.navbar').css('background', 'transparent');
+            $('.et-hero-tabs-container').css('background', 'transparent');
+            $('.et-hero-tab').css('background', 'transparent');
+            $('.et-slide').css('background', 'transparent');
+            $('.nonlink').css('background', 'transparent');
+            $('.et-hero-tabs-container').css('margin-top', '2%');
+        }
+    });
+</script>
